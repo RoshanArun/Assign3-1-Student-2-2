@@ -1,0 +1,11 @@
+WCharCount request: {"findchar":true,"find":"t","count":"testtest","type":"charcount"}
+ICharCount request: {"findchar":false,"count":"test","type":"charcount"}
+	hStoryboard request: {"view":false,"name":"TestUser","type":"storyboard","story":"Once upon a time..."}
+
+0Echo request: {"data":"whooooo","type":"echo"}
+7Storyboard request: {"view":true,"type":"storyboard"}
+1Echo request: {"data1":"whooooo","type":"echo"}
+)Echo request: {"data":33,"type":"echo"}
++Echo request: {"data":true,"type":"echo"}
+hStoryboard request: {"view":false,"name":"TestUser","type":"storyboard","story":"Once upon a time..."}
+wStoryboard request: {"view":false,"name":"TestUser","type":"storyboard","story":"And they lived happily ever after."}

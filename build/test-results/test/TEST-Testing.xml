@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testing" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-02-19T23:12:20" hostname="ROSHAN-PC" time="0.015">
+  <properties/>
+  <testcase name="testCharCountWithSpecificChar" classname="Testing" time="0.007"/>
+  <testcase name="testCharCountWithoutSpecificChar" classname="Testing" time="0.0"/>
+  <testcase name="storyboardAddSuccess" classname="Testing" time="0.001"/>
+  <testcase name="echoCorrect" classname="Testing" time="0.0"/>
+  <testcase name="typeWrong" classname="Testing" time="0.004"/>
+  <testcase name="storyboardView" classname="Testing" time="0.001"/>
+  <testcase name="echoErrors" classname="Testing" time="0.002"/>
+  <testcase name="storyboardAddDuplicateUser" classname="Testing" time="0.0"/>
+  <system-out><![CDATA[CharCount request: {"findchar":true,"find":"t","count":"testtest","type":"charcount"}
+CharCount request: {"findchar":false,"count":"test","type":"charcount"}
+Storyboard request: {"view":false,"name":"TestUser","type":"storyboard","story":"Once upon a time..."}
+Echo request: {"data":"whooooo","type":"echo"}
+Storyboard request: {"view":true,"type":"storyboard"}
+Echo request: {"data1":"whooooo","type":"echo"}
+Echo request: {"data":33,"type":"echo"}
+Echo request: {"data":true,"type":"echo"}
+Storyboard request: {"view":false,"name":"TestUser","type":"storyboard","story":"Once upon a time..."}
+Storyboard request: {"view":false,"name":"TestUser","type":"storyboard","story":"And they lived happily ever after."}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
